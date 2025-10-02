@@ -1,4 +1,4 @@
-package Assigment;
+package Assignment;
 
 import java.util.LinkedList;
 

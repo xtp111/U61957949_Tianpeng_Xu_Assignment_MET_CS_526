@@ -1,4 +1,4 @@
-package Assigment;
+package Assignment;
 
 public class QuestionThree {
     public static int doltTwo(int n) {

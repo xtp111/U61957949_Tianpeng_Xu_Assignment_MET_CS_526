@@ -1,8 +1,8 @@
-package AssignmentOne;
+package Assignment;
 
 import java.util.LinkedList;
 
-public class DemoTwo {
+public class Main {
     public static void doIt(Node node) {
         if (node == null) return;
         doIt(node.next);
