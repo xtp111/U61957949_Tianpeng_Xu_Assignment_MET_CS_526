@@ -2,8 +2,6 @@ package HomeWork3.Problem3;
 
 public class DLinkedListStack {
     DLinkedListNode top;
-    DLinkedListStack dList;
-
 
     public void push(int value){
         DLinkedListNode node = new DLinkedListNode(value);
