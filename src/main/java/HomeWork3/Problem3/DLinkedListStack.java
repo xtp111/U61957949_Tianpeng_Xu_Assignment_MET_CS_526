@@ -22,25 +22,26 @@ public class DLinkedListStack {
         return top == null;
     }
 
-    public void reverse(DLinkedListStack dlist) {
+    public void reverse(DLinkedListStack dList) {
         if (dList.isEmpty()) {
             return;
         }
 
-        int value = dlist.pop();
+        int value = dList.pop();
+        reverse(dList);
         insertAtBottom(dList,value);
-        reverse(dlist);
-
     }
 
-    public void insertAtBottom(DLinkedListStack dList, int value){
-        if (dList.isEmpty()){
-            dList.push(value);
-    }
-        int top = dList.pop();
-        insertAtBottom(dList,top);
-        dList.push(top);
+    public void insertAtBottom(DLinkedListStack dlist, int
+            value) {
+        if (dlist.isEmpty()) {
+            dlist.push(value);
+            return;
+        }
 
+        int topValue = dlist.pop();
+        insertAtBottom(dlist, value);
+        dlist.push(topValue);
     }
 
     public void print() {

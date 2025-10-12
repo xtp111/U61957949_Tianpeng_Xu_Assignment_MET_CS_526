@@ -27,7 +27,7 @@ public class Test {
         for (int i = 1; i <= 10; i++) doublyStack.push(i);
         System.out.print("Before reverse: ");
         doublyStack.print();
-        doublyStack.reverse(doublyStack.dList);
+        doublyStack.reverse(doublyStack);
         System.out.print("After reverse:  ");
         doublyStack.print();
     }
