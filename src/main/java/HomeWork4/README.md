@@ -107,7 +107,7 @@ double RIGHT_ANGLE = Math.PI / 2; // Constant representing 90° in radians
  Divide by 2 to remove duplicate counts.
 ---
 
-## ⏱️ Time Complexity
+##  Time Complexity
 | Step | Operation | Complexity |
 |------|------------|-------------|
 | For each of n points | Compute angles to other (n−1) points | O(n) |
